@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cards-game": "file:",
     "express": "^4.21.0"
   }
 }

@@ -3,18 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Card Guessing Game</title>
+  <title>Animal Pair Adventure</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="header-wrapper">
-        <h1>Card Guessing Game</h1>
-        <button id="reset-button" type="button">Reset Game</button>
+
+    <!-- APP -->
+    <div class="App">
+
+        <!-- HEADER -->
+        <div class="header-wrapper">
+
+            <!-- HEADING NAME -->
+            <h3>Animal Pair Adventure</h3>
+            <div class="container">
+              <svg viewBox="0 0 960 300">
+                <symbol id="s-text">
+                  <text text-anchor="middle" x="50%" y="80%">Animal Pair Adventure</text>
+                </symbol>
+            
+                <g class = "g-ants">
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                </g>
+              </svg>
+            </div>
+            <!-- HEADING NAME ENDS -->
+
+            <!-- BUTTON -->
+            <button id="reset-button" type="button">Reset Game</button>
+
+            <!-- LOGO -->
+             <div class="logo">
+                <img src="./logo.jpeg" alt="Logo">
+             </div>
+        </div>
+
+        <!-- CARDS WRAPPER -->
+        <div class="cards-wrapper">
+            <div id="game-board" class="grid"></div>
+        </div>
+
+        <!-- POPUP -->
+        <div id="popup" class="hidden">Congratulations! You Won!</div>
     </div>
-  <div class="cards-wrapper">
-    <div id="game-board" class="grid"></div>
-  </div>
-  <div id="popup" class="hidden">Congratulations! You Won!</div>
   
   <script src="./js/game.js"></script>
 </body>
