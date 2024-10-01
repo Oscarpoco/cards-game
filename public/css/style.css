@@ -236,7 +236,7 @@ body::before
   {
     width: 100px;
     height: 100px;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 1);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -390,4 +390,34 @@ body::before
       height: 60px;
     }
   }
+
+  /* Keyframes for medium screens */
+@media (min-width: 768px) and (max-width: 1024px) {
+  @keyframes move-and-roll {
+    0% {
+      transform: translateX(0) rotate(0deg); 
+    }
+    50% {
+      transform: translateX(600px) rotate(180deg); /* Adjust translation for medium screens */
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+    }
+  }
+}
+
+/* Keyframes for large screens */
+@media (min-width: 1025px) {
+  @keyframes move-and-roll {
+    0% {
+      transform: translateX(0) rotate(0deg); 
+    }
+    50% {
+      transform: translateX(1100px) rotate(180deg); /* Keep the original for large screens */
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+    }
+  }
+}
   
