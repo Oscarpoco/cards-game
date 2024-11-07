@@ -281,6 +281,7 @@ body::before
     background: center center/contain;
     transform: rotateY(180deg);
     box-sizing: border-box;
+    filter: grayscale(100%);
   }
   
   .card.flipped .card-front 
@@ -420,4 +421,5 @@ body::before
     }
   }
 }
+
   

@@ -104,7 +104,7 @@ function checkMatch() {
         setTimeout(() => {
             first.element.classList.remove('flipped');
             second.element.classList.remove('flipped');
-        }, 1000);
+        }, 100);
     }
 
     selectedCards = [];
