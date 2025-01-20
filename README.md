@@ -2,8 +2,6 @@
 
 A delightful memory game built with HTML, CSS, and JavaScript where players match pairs of animal cards. Test your memory by finding matching pairs in this interactive and engaging game!
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-
 ## ✨ Features
 
 - Interactive gameplay with 18 unique animal pairs
