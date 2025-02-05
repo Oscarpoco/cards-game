@@ -44,7 +44,7 @@ node server
 
 4. Open your browser and navigate to:
 ```
-http://localhost:3000
+http://localhost:7000
 ```
 
 ## 🎯 How to Play
