@@ -42,9 +42,9 @@ npm install
 node server
 ```
 
-4. Open your browser and navigate to:
+4. Open your browser and type:
 ```
-http://localhost:7000
+http://localhost:3000
 ```
 
 ## 🎯 How to Play
